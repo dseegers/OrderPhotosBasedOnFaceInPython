@@ -3,5 +3,5 @@ FROM python:3
 WORKDIR /usr/src/app
 RUN pip install cmake -vvv
 RUN pip install dlib -vvv
-RUN pip install face-recognition
+RUN pip install face-recognitiondo
 CMD [ "python", "./ImageSorter.py" ]

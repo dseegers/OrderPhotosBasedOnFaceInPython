@@ -3,4 +3,4 @@ services:
   order:
     build: .
     volumes:
-      - ./script:/usr/src/script
+      - ./app:/usr/src/app
